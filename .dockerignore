@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.git/
+.dvc/cache/
+dvc-remote/
+.env
+artifacts/
+*.pdf
+screenshots/
+work/

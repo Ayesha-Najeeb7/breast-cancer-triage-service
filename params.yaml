@@ -1,0 +1,6 @@
+seed: 42
+decision_threshold: 0.35
+train:
+  logistic_c: 1.0
+  forest_estimators: 200
+  forest_max_depth: null

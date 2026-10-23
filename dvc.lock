@@ -35,5 +35,5 @@ stages:
       size: 3601
     - path: artifacts/model_card.json
       hash: md5
-      md5: 4c1d58d4fa97c7bd194abe584ba42979
+      md5: e3687f7dc16236f95eac8b083fc08164
       size: 1827

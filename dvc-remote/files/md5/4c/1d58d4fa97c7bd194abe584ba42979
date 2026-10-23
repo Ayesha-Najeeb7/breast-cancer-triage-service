@@ -1,0 +1,66 @@
+{
+  "model_version": "1.0.0",
+  "model_family": "logistic_regression",
+  "feature_names": [
+    "mean_radius",
+    "mean_texture",
+    "mean_perimeter",
+    "mean_area",
+    "mean_smoothness",
+    "mean_compactness",
+    "mean_concavity",
+    "mean_concave_points",
+    "mean_symmetry",
+    "mean_fractal_dimension",
+    "radius_error",
+    "texture_error",
+    "perimeter_error",
+    "area_error",
+    "smoothness_error",
+    "compactness_error",
+    "concavity_error",
+    "concave_points_error",
+    "symmetry_error",
+    "fractal_dimension_error",
+    "worst_radius",
+    "worst_texture",
+    "worst_perimeter",
+    "worst_area",
+    "worst_smoothness",
+    "worst_compactness",
+    "worst_concavity",
+    "worst_concave_points",
+    "worst_symmetry",
+    "worst_fractal_dimension"
+  ],
+  "metrics": [
+    {
+      "model_family": "logistic_regression",
+      "cv_malignant_recall_mean": 0.9575757575757576,
+      "cv_accuracy_mean": 0.9791499599037691,
+      "cv_roc_auc_mean": 0.9941744488914301,
+      "test_malignant_recall": 0.975609756097561,
+      "test_accuracy": 0.9722222222222222,
+      "test_roc_auc": 0.9989078995267565
+    },
+    {
+      "model_family": "random_forest",
+      "cv_malignant_recall_mean": 0.9454545454545455,
+      "cv_accuracy_mean": 0.9558406843090083,
+      "cv_roc_auc_mean": 0.9879952565487157,
+      "test_malignant_recall": 0.975609756097561,
+      "test_accuracy": 0.9629629629629629,
+      "test_roc_auc": 0.99690571532581
+    }
+  ],
+  "selected_test_metrics": {
+    "test_malignant_recall": 0.975609756097561,
+    "test_accuracy": 0.9722222222222222,
+    "test_roc_auc": 0.9989078995267565
+  },
+  "seed": 42,
+  "decision_threshold": 0.35,
+  "feature_count": 30,
+  "sklearn_version": "1.9.1",
+  "git_commit": "23035d0"
+}

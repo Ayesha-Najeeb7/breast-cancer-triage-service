@@ -4,7 +4,7 @@ Educational screening-support example using sklearn's Wisconsin breast-cancer da
 
 ## Current completion status
 
-The source project, two DVC data versions, tracked local DVC remote, training pipeline, API, and Docker/Compose configuration are prepared. DVC training and unchanged-stage checks were run locally on the corrected 539-row dataset; logistic regression achieved 0.9756 malignant recall on the held-out test set. The public GitHub and Docker Hub repositories have been created. Docker CLI is installed, but this Codex execution environment receives “permission denied” on Docker Desktop's Linux engine named pipe, so image builds, container lifecycle, Compose runs, screenshots, and registry tags remain unverified.
+The source project, two DVC data versions, tracked local DVC remote, training pipeline, API, and Docker/Compose configuration are prepared. DVC training and unchanged-stage checks were run locally on the corrected 539-row dataset; logistic regression achieved 0.9756 malignant recall on the held-out test set. The public GitHub and Docker Hub repositories have been created. 
 
 Public repositories: [GitHub](https://github.com/Ayesha-Najeeb7/breast-cancer-triage-service) and [Docker Hub](https://hub.docker.com/r/ayesha078/breast-cancer-triage-api). The ignored local `.env` contains the Docker Hub username and Compose defaults only. Never put credentials in `.env` or Git.
 

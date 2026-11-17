@@ -10,8 +10,8 @@ stages:
       size: 115636
     - path: params.yaml
       hash: md5
-      md5: 51f3e14393445009a3083b496ec4344d
-      size: 110
+      md5: 19ed29776cec7cc1e71965d5e1a51210
+      size: 109
     - path: training/train.py
       hash: md5
       md5: b10bb3cf305bfd4ad35c70d25edac1f7
@@ -35,5 +35,5 @@ stages:
       size: 3601
     - path: artifacts/model_card.json
       hash: md5
-      md5: e3687f7dc16236f95eac8b083fc08164
+      md5: 1fdda4e470699de44a76169e4a4c00b2
       size: 1827
